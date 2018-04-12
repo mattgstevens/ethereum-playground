@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+package-lock.json
+yarn-error.log
+
+# built assets
+build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.truffle-solidity-loader
+.node-xmlhttprequest*
+
+# tmp files
+~*
+.#*
+.editorconfig

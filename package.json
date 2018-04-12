@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "--- SECTION scripts ---": "-> utils & playground",
+    "recover-public-from-private": "node recover-public-address-from-private-key.js",
+    "--- SECTION smart contracts ---": "-> compile and tooling ",
+    "compile:clean": "rm -rf build/contracts; yarn compile",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network dev",
+    "repl": "yarn truffle console --network dev",
+    "test": "yarn truffle test"
+  },
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "keccak": "^1.4.0",
+    "secp256k1": "^3.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2",
+    "truffle": "^4.0.6",
+    "zeppelin-solidity": "^1.6.0"
+  }
+}
